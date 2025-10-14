@@ -1,5 +1,5 @@
 import React from "react";
-import church_logo from "../assets/images/church/church_logo.png"; // Replace with actual logo path
+import logo from "../assets/images/church/logo.png"; // Replace with actual logo path
 
 const Navbar: React.FC = () => {
   return (
@@ -19,7 +19,7 @@ const Navbar: React.FC = () => {
           style={{ marginRight: 0 }}
         >
           <img
-            src={church_logo}
+            src={logo}
             alt="Church Logo"
             style={{
               height: "60px",
@@ -30,7 +30,7 @@ const Navbar: React.FC = () => {
             }}
           />
         </a>
-        <button
+        {/* <button
           className="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
@@ -40,7 +40,7 @@ const Navbar: React.FC = () => {
           aria-label="Toggle navigation"
         >
           <span className="navbar-toggler-icon"></span>
-        </button>
+        </button> */}
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0 gap-lg-3">
             <li className="nav-item">
@@ -74,6 +74,14 @@ const Navbar: React.FC = () => {
                 href="#leadership"
               >
                 Leadership
+              </a>
+            </li>
+            <li className="nav-item">
+              <a
+                className="nav-link px-3 rounded-pill fw-semibold"
+                href="#resources"
+              >
+                Resources
               </a>
             </li>
             <li className="nav-item">

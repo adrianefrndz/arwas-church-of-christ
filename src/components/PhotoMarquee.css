@@ -59,15 +59,19 @@
 }
 
 @media (max-width: 600px) {
+  .photo-marquee-section {
+    min-height: 160px;
+    padding: 0.5rem 0;
+  }
   .photo-marquee-square {
-    width: 90px;
-    height: 90px;
+    width: 160px;
+    height: 160px;
   }
   .photo-marquee-vertical {
-    width: 90px;
-    height: 120px;
+    width: 160px;
+    height: 200px;
   }
-  .photo-marquee-track {
-    gap: 1rem;
+  .photo-marquee-img-wrapper {
+    margin-right: 0.5rem;
   }
 }

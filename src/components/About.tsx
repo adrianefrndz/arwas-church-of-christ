@@ -12,15 +12,15 @@ const AboutUs: React.FC = () => (
         </div>
         {/* Right column with Our Mission */}
         <div className="col-12 col-md-6 about-mission-col">
-          <h2 className="about-title">Our Mission</h2>
+          <h2 className="abou t-title">Our Mission</h2>
           <p className="about-desc">
             The Arwas Church of Christ is a welcoming community dedicated to
             faith, fellowship, and service. Our mission is to make disciples,
             inspire hope, share love, and make a positive impact.
           </p>
-          <button className="about-btn">
+          {/* <button className="about-btn">
             More About Us <span className="about-btn-arrow">&rarr;</span>
-          </button>
+          </button> */}
         </div>
       </div>
     </div>

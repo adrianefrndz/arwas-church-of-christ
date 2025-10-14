@@ -2,11 +2,11 @@ import React from "react";
 import "./Resources.css";
 
 const resources = [
-  {
-    title: "Bible Study Guides",
-    description: "Downloadable guides to help you dive deeper into the Word.",
-    link: "#",
-  },
+  // {
+  //   title: "Bible Study Guides",
+  //   description: "Downloadable guides to help you dive deeper into the Word.",
+  //   link: "#",
+  // },
   {
     title: "Devotionals",
     description: "Daily and weekly devotionals for spiritual growth.",
@@ -17,11 +17,11 @@ const resources = [
     description: "Listen to inspiring messages and discussions.",
     link: "#",
   },
-  {
-    title: "Downloadable Content",
-    description: "Access printable resources and study materials.",
-    link: "#",
-  },
+  // {
+  //   title: "Downloadable Content",
+  //   description: "Access printable resources and study materials.",
+  //   link: "#",
+  // },
 ];
 
 const Resources: React.FC = () => (

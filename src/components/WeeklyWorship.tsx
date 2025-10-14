@@ -1,6 +1,6 @@
 import React from "react";
 import "./WeeklyWorship.css";
-import churchLogo from "../assets/images/church/church_logo.png"; // Replace with actual logo path
+import logo from "../assets/images/church/logo_bottom.png"; // Replace with actual logo path
 
 const WeeklyWorship: React.FC = () => (
   <section id="contact" className="weekly-worship-section">
@@ -13,7 +13,7 @@ const WeeklyWorship: React.FC = () => (
             height: "auto",
             minWidth: "130px",
           }}
-          src={churchLogo}
+          src={logo}
           alt="Church Logo"
           className="weekly-worship-logo"
         />
@@ -49,7 +49,7 @@ const WeeklyWorship: React.FC = () => (
         <div className="weekly-worship-title">
           <span className="weekly-worship-title">Contact Info</span>
           <div className="gap2" />
-          <h6 className="schedule"> 0912-345-6789</h6>
+          <h6 className="schedule"> 0948-373-3465</h6>
         </div>
         <div className="weekly-worship-facebook">
           <a

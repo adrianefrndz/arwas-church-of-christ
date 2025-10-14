@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import "./MusicTeam.css";
 //import adriane from "../assets/images/music/adriane.jpg";
 import joshua from "../assets/images/music/joshua.png";
+import aura from "../assets/images/music/aura.png";
+import bianca from "../assets/images/music/bianca.png";
 // Import musician images - replace these with actual photos
 // import musician1 from "../assets/images/music/musician1.jpg";
 // import musician2 from "../assets/images/music/musician2.jpg";
@@ -15,10 +17,16 @@ const musicians = [
     image: joshua,
   },
   {
-    name: "Michael Brown",
+    name: "Annie Aura Rivera",
     role: "Guitarist",
     // image: musician2,
-    image: "https://via.placeholder.com/300x300?text=Guitarist",
+    image: aura,
+  },
+  {
+    name: "Bianca Yagin",
+    role: "Keyboardist",
+    // image: musician4,
+    image: bianca,
   },
   {
     name: "Emily Davis",
@@ -53,7 +61,7 @@ const MusicTeam: React.FC = () => {
             {musicians.map((musician, idx) => (
               <div
                 key={idx}
-                className="col-4 col-md-3"
+                className="col-4 col-sm-6 col-md-4"
                 style={{ maxWidth: "250px" }}
               >
                 <div

@@ -1,30 +1,29 @@
 import React from "react";
 import "./Leadership.css";
-import adriane_test from "../assets/images/leaders/adriane_test.png";
 
 // Import leader images - replace these with actual photos
-// import pastor1 from "../assets/images/leaders/pastor1.jpg";
-// import elder1 from "../assets/images/leaders/elder1.jpg";
-// import elder2 from "../assets/images/leaders/elder2.jpg";
+import randy from "../assets/images/leaders/randy.png";
+import davis from "../assets/images/leaders/davis.png";
+import rodrigo from "../assets/images/leaders/rodrigo.png";
 
 const leaders = [
   {
     name: "Bro. Randy Fernandez",
     role: "Church Pastor",
     // image: pastor1,
-    image: adriane_test,
+    image: randy,
   },
   {
     name: "Bro. Rodrigo Coz",
     role: "Church Elder",
     // image: elder1,
-    image: "https://via.placeholder.com/300x300?text=Elder+1",
+    image: rodrigo,
   },
   {
     name: "Bro. Davis Yagin",
     role: "Church Elder",
     // image: elder2,
-    image: "https://via.placeholder.com/300x300?text=Elder+2",
+    image: davis,
   },
 ];
 

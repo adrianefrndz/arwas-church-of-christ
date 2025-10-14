@@ -18,14 +18,14 @@
 }
 
 .music-team-reveal-btn:hover {
-  background: #2D2320;
-  color: #DCC5B2;
+  background: #2d2320;
+  color: #dcc5b2;
   transform: scale(1.05);
 }
 
 .team-container {
   opacity: 0;
-  transform: translateY(20px);
+  transform: translatey(20px);
   transition: all 0.5s ease-out;
   max-height: 0;
   pointer-events: none;
@@ -33,7 +33,7 @@
 
 .team-container.visible {
   opacity: 1;
-  transform: translateY(0);
+  transform: translatey(0);
   max-height: 800px;
   pointer-events: all;
 }
@@ -76,4 +76,12 @@
 .card-text {
   color: #bab3ac;
   font-size: 0.75rem;
+}
+
+@media (max-width: 600px) {
+  .team-member-card img {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+  }
 }

@@ -4,13 +4,14 @@ import About from "./components/About";
 import Events from "./components/Events";
 // import Gallery from "./components/Gallery";
 import Leadership from "./components/Leadership";
-import MusicTeam from "./components/MusicTeam";
+// import MusicTeam from "./components/MusicTeam";
 import Footer from "./components/Footer";
 import WelcomeBanner from "./components/WelcomeBanner";
 import WeeklyWorship from "./components/WeeklyWorship";
 import "./App.css";
 import Resources from "./components/Resources";
 import PhotoMarquee from "./components/PhotoMarquee";
+import TestYourKnowledge from "./components/TestYourKnowledge";
 
 function App() {
   return (
@@ -23,8 +24,9 @@ function App() {
         <PhotoMarquee />
         <Events />
         <Leadership />
-        <MusicTeam />
+        {/* <MusicTeam /> */}
         <Resources />
+        <TestYourKnowledge />
         {/* <Gallery /> */}
         <WeeklyWorship />
       </main>
